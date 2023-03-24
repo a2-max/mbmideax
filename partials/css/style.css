@@ -41,7 +41,7 @@
 .hero .right {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .hero .right img {
@@ -121,7 +121,8 @@
   padding: 50px 0;
 }
 
-.pre-events-title {
+.pre-events-title,
+.tracks-title {
   font-size: 40px;
   text-transform: uppercase;
   color: #2097AB;
