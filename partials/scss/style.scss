@@ -1,0 +1,380 @@
+$pcolor: #2097AB;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+.heromax {
+    background-color: #fff;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+
+    .left {
+        width: 50%;
+
+        .hero-title {
+            font-size: 80px;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 700;
+            color: $pcolor;
+
+            span{
+                color: #474747;
+            }
+        }
+
+        .short-description {
+            width: 500px;
+            color: #7e7e7e;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            background-color: $pcolor;
+            border: 1px solid $pcolor;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px 30px;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #157a8b;
+            transition: all .3s ease-in-out;
+        }
+    }
+
+    .right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 90%;
+        }
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .hero {
+        .left {
+            .short-description {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .hero {
+        .left {
+            .hero-title {
+                font-size: 60px;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0 10px 0;
+        gap: 50px;
+
+        .left {
+            width: 100%;
+        }
+
+        .right {
+            width: 100%;
+        }
+    }
+}
+
+
+// ==================================================================
+// About Section start
+// ==================================================================
+
+.about {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img {
+        width: 50%;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .about-info {
+        width: 50%;
+
+        .about-title {
+            font-size: 40px;
+            text-transform: uppercase;
+            color: $pcolor;
+        }
+
+        .para {
+            font-size: 18px;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+            text-align: justify;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column-reverse;
+        padding: 50px 0;
+
+        .img {
+            width: 100%;
+        }
+
+        .about-info {
+            width: 100%;
+
+            .para {
+                word-spacing: 3px;
+            }
+        }
+    }
+}
+
+// ==========================================================
+// Pre Events Start
+// ==========================================================
+
+.pre-events-bg {
+    background-color: #fff;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.pre-events-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: $pcolor;
+}
+
+.pre-events {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+
+    .single-card {
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            filter: drop-shadow(0px 0px 10px #0001);
+        }
+
+        p {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .pre-events {
+        gap: 10px;
+        justify-content: space-between;
+
+        .single-card {
+            img {
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+}
+
+.tracksbg {
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.tracks {
+    .single-card {
+        img {
+            width: 150px;
+            height: 150px;
+            background-color: $pcolor;
+            padding: 40px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.tracks-mxwidth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .tracks-info {
+        max-width: 900px;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 18px;
+        color: #6d6d6d;
+    }
+}
+
+@media (max-width: 370px) {
+    .tracks {
+        justify-content: center;
+    }
+}
+
+// ===============================================================
+// Team Start
+// ===============================================================
+
+.teambg {
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px 0 0 0;
+}
+
+.teams-outer {
+    position: relative;
+    max-width: 1050px;
+    // background-color: red;
+    position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+    .teams {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 60px;
+        position: relative;
+        margin: 30px 0;
+
+        .team-card {
+            img {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 10px;
+                box-shadow: 3px 3px 10px #0003;
+                border: 1px solid #0003;
+                margin: 0 20px;
+            }
+
+            .name {
+                text-align: center;
+                margin-top: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .teams::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .arrow {
+        background-color: #000;
+        height: fit-content;
+        padding: 10px;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 999;
+        top: 150px;
+    }
+
+    .right-arr {
+        right: 0;
+    }
+}
+
+.faqmax{
+    padding-top: 30px;
+    flex-direction: column;
+}
+.accordion{
+    width: 100%;
+    margin-top: 30px;
+    .accordion-item{
+        width: 100%;
+        max-width: 900px;
+        min-width: 900px;
+        .accordion-button{
+            background-color: $pcolor;
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .accordion{
+        padding: 30px;
+        .accordion-item{
+            min-width: 100%;
+        }
+    }
+}
+
+.footermax{
+    margin-top: 50px;
+    background-color: #302f2f;
+}
+.footer{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: #e6e6e6;
+    }
+    .social-links{
+        a{
+            i{
+                color: #fff;
+                margin: 0 5px;
+                padding: 8px;
+                border-radius: 3px;
+                background-color: #000;
+            }
+            .fb{
+                background-color: #4267B2;
+            }
+            .ig{
+                background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            }
+            .tw{
+                background-color: #1DA1F2;
+            }
+            .dc{
+                background-color: #7289da;
+            }
+        }
+    }
+}
