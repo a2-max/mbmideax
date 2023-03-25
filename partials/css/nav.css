@@ -13,7 +13,7 @@
   position: relative;
 }
 .navmax nav a .logo {
-  width: 100%;
+  width: 50px;
 }
 .navmax nav .links {
   display: flex;
