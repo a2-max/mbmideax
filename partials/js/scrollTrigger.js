@@ -7,6 +7,7 @@ let tracks = gsap.timeline({
     }
 });
 tracks.from(".tracks-title", { y: 200, opacity: 0, duration: 0.6 });
+tracks.from(".tracks-soon", { y: 200, opacity: 0, duration: 0.6 });
 tracks.addLabel("start")
     .from(".tc1", { y: 100, autoAlpha: 0 }, "-=0.6")
     .addLabel("end");
@@ -28,6 +29,7 @@ let preEvents = gsap.timeline({
     }
 });
 preEvents.from(".pre-events-title", { y: 200, opacity: 0, duration: 0.6 });
+preEvents.from(".pre-events-soon", { y: 200, opacity: 0, duration: 0.6 });
 preEvents.addLabel("start")
     .from(".pe1", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.9")
     .addLabel("end");

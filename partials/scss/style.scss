@@ -1,6 +1,12 @@
-$pcolor: #2097AB;
+$pcolor: #0973BA;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+.soon {
+    color: #424242;
+    margin-top: 40px;
+    text-align: center;
+}
 
 .heromax {
     background-color: #fff;
@@ -21,14 +27,45 @@ $pcolor: #2097AB;
             font-weight: 700;
             color: $pcolor;
 
-            span{
+            span {
                 color: #474747;
             }
         }
+
         .short-description {
             width: 500px;
             color: #7e7e7e;
             margin-bottom: 40px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        // Counter
+        .counter {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: auto;
+            overflow: hidden;
+            user-select: none;
+            margin-bottom: 20px;
+
+            .row{
+                width: 80px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .value{
+                    color: $pcolor;
+                    font-size: 20px;
+                    text-align: left;
+                }
+                .label{
+                    text-align: left;
+                }
+            }
         }
 
         .button {
@@ -41,7 +78,7 @@ $pcolor: #2097AB;
         }
 
         .button:hover {
-            background-color: #157a8b;
+            background-color: #045991;
             transition: all .3s ease-in-out;
         }
     }
@@ -126,7 +163,7 @@ $pcolor: #2097AB;
 
         .para {
             font-size: 18px;
-            word-spacing: 5px;
+            // word-spacing: 5px;
             letter-spacing: 1px;
             text-align: justify;
             margin-top: 20px;
@@ -266,8 +303,8 @@ $pcolor: #2097AB;
     max-width: 1050px;
     // background-color: red;
     position: relative;
-        left: 50%;
-        transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
 
     .teams {
         display: flex;
@@ -283,8 +320,8 @@ $pcolor: #2097AB;
                 height: 300px;
                 object-fit: cover;
                 border-radius: 10px;
-                box-shadow: 3px 3px 10px #0003;
-                border: 1px solid #0003;
+                // box-shadow: 3px 3px 10px #0003;
+                // border: 1px solid #0003;
                 margin: 0 20px;
             }
 
@@ -292,6 +329,14 @@ $pcolor: #2097AB;
                 text-align: center;
                 margin-top: 10px;
                 font-size: 20px;
+            }
+
+            .team-meta {
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                // padding-top: 5px;
+                color: #444444;
             }
         }
     }
@@ -318,18 +363,21 @@ $pcolor: #2097AB;
     }
 }
 
-.faqmax{
+.faqmax {
     padding-top: 30px;
     flex-direction: column;
 }
-.accordion{
+
+.accordion {
     width: 100%;
     margin-top: 30px;
-    .accordion-item{
+
+    .accordion-item {
         width: 100%;
         max-width: 900px;
         min-width: 900px;
-        .accordion-button{
+
+        .accordion-button {
             background-color: $pcolor;
             color: #fff;
         }
@@ -337,46 +385,54 @@ $pcolor: #2097AB;
 }
 
 @media (max-width: 900px) {
-    .accordion{
+    .accordion {
         padding: 30px;
-        .accordion-item{
+
+        .accordion-item {
             min-width: 100%;
         }
     }
 }
 
-.footermax{
+.footermax {
     margin-top: 50px;
     background-color: #302f2f;
 }
-.footer{
+
+.footer {
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    p{
+
+    p {
         color: #e6e6e6;
     }
-    .social-links{
-        a{
-            i{
+
+    .social-links {
+        a {
+            i {
                 color: #fff;
                 margin: 0 5px;
                 padding: 8px;
                 border-radius: 3px;
                 background-color: #000;
             }
-            .fb{
+
+            .fb {
                 background-color: #4267B2;
             }
-            .ig{
-                background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+
+            .ig {
+                background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
             }
-            .tw{
+
+            .tw {
                 background-color: #1DA1F2;
             }
-            .dc{
+
+            .dc {
                 background-color: #7289da;
             }
         }

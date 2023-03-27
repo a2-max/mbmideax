@@ -1,11 +1,11 @@
-$pcolor: #2097AB;
+$pcolor: #0973BA;
 
 .navmax {
   background-color: #fff;
   width: 100%;
   position: sticky;
   top: 0;
-  z-index: 9999999999999999999999999;
+  z-index: 88888;
 
   nav {
     display: flex;
@@ -16,7 +16,7 @@ $pcolor: #2097AB;
 
     a {
       .logo {
-        width: 50px;
+        width: 100px;
       }
     }
 
@@ -38,7 +38,7 @@ $pcolor: #2097AB;
         }
 
         a:hover {
-          color: #000;
+          color: $pcolor;
           transition: all .3s ease-in-out;
         }
       }

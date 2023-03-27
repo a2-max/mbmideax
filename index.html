@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link href='./partials/images/favicon.png' rel='icon' type='image/x-icon' />
+    <meta
+        content="MBM IdeaX is a 48-hour on-site hackathon that aims to bring together young people from all over Nepal to generate innovative and creative solutions for preserving and promoting indigenous languages using ICT."
+        name='description' />
+    <meta name="keywords" content="ideax, mbmideax, ideax 2023, hackathon, hackathon in nepal, hackathon 2023, ideax hackathon, mbm college" />
+
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -28,21 +35,24 @@
     <title>MBM IdeaX 2023</title>
 </head>
 
-<body>
+<body onload="loaded()">
+    <div class="site-preloader">
+        <img src="./partials/images/preloader.gif" alt="preloader">
+    </div>
     <div class="site-wrapper">
         <div class="max-bg navmax">
             <!-- nav start -->
             <nav class="mxwidth">
                 <a href="/">
-                    <img src="./partials/images/ideaxlogo.png" alt="logo" class="logo">
+                    <img src="./partials/images/ideaX.png" alt="logo" class="logo">
                 </a>
                 <ul class="links">
-                    <li class="nl1"><a href="#">About</a></li>
-                    <li class="nl2"><a href="#">Pre Events</a></li>
-                    <li class="nl3"><a href="#">Tracks</a></li>
-                    <li class="nl4"><a href="#">Sponsors</a></li>
-                    <li class="nl5"><a href="#">Teams</a></li>
-                    <li class="nl6"><a href="#">FAQ</a></li>
+                    <li class="nl1"><a href="#about">About</a></li>
+                    <li class="nl2"><a href="#pre-events">Pre Events</a></li>
+                    <li class="nl3"><a href="#tracks">Tracks</a></li>
+                    <!-- <li class="nl4"><a href="#sponsors">Sponsors</a></li> -->
+                    <li class="nl5"><a href="#teams">Teams</a></li>
+                    <li class="nl6"><a href="#faq">FAQ</a></li>
                 </ul>
                 <div class="hamburger">
                     <div class="line line1"></div>
@@ -64,9 +74,29 @@
                             <span class="year">2023</span>
                         </h1>
                         <p class="short-description hero-para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi error quia odio ab
-                            cupiditate! Quis.
+                            Preserve • Promote • Revitalize
+                            <br>
+                            <span style="color: #353535; font-size: 16px;">Starting From June 9 - 11</span>
                         </p>
+                        <!-- Counter -->
+                        <div class="counter">
+                            <div class="row">
+                                <div class="value days"></div>
+                                <p class="label">days</p>
+                            </div>
+                            <div class="row">
+                                <div class="value hrs"></div>
+                                <p class="label">hrs</p>
+                            </div>
+                            <div class="row">
+                                <div class="value min"></div>
+                                <p class="label">min</p>
+                            </div>
+                            <div class="row">
+                                <p class="value sec"></p>
+                                <p class="label" style="margin-top: -17px;">sec</p>
+                            </div>
+                        </div>
                         <a href="#" class="button reg-btn">Register Now</a>
                     </div>
                     <div class="right">
@@ -79,7 +109,7 @@
 
         <!-- about start -->
 
-        <div class="max-bg aboutmax">
+        <div class="max-bg aboutmax" id="about">
             <div class="mxwidth">
                 <div class="about">
                     <div class="img about-img">
@@ -88,11 +118,12 @@
                     <div class="about-info">
                         <h2 class="about-title">About Us</h2>
                         <p class="para">
-                            HackMIT is a weekend-long event where thousands of students from around the world come
-                            together to work on cool software and/or hardware projects. As one of the largest
-                            undergraduate hackathons in the world, we typically bring in over 1000 students to MIT's
-                            campus each fall. This year, HackMIT is back to being fully in-person on MIT's campus during
-                            the weekend of October 1st.
+                            MBM IdeaX – ICT for Indigenous Languages is a 48-hour on-site hackathon that aims to bring
+                            together young people from all over Nepal to generate innovative and creative solutions for
+                            preserving and promoting indigenous languages using ICT. This hackathon is a part of the
+                            International Decade of Indigenous Languages (IDIL) mission to save, preserve, and promote
+                            Indigenous languages that are at the verge of loss. The event is organized by Madan Bhandari
+                            Memorial College in collaboration with UNESCO Nepal.
                         </p>
                     </div>
                 </div>
@@ -102,92 +133,67 @@
         <!-- about ends here -->
 
         <!-- pre events start -->
-        <div class="max-bg pre-events-bg">
+        <div class="max-bg pre-events-bg" id="pre-events">
             <h2 class="pre-events-title">Pre-Events</h2>
+            <h1 class="soon pre-events-soon">Coming Soon...</h1>
             <div class="mxwidth">
                 <div class="pre-events">
-                    <div class="single-card pe1">
-                        <img src="./partials/images/html.svg" alt="html">
-                        <p>HTML</p>
-                    </div>
-                    <div class="single-card pe2">
-                        <img src="./partials/images/css.svg" alt="css">
-                        <p>CSS</p>
-                    </div>
-                    <div class="single-card pe3">
-                        <img src="./partials/images/js.svg" alt="js">
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="single-card pe4">
-                        <img src="./partials/images/reactjs.svg" alt="react js">
-                        <p>React Js</p>
-                    </div>
+
                 </div>
             </div>
         </div>
         <!-- pre events end here -->
 
         <!-- tracks start -->
-        <div class="max-bg tracksbg">
+        <div class="max-bg tracksbg" id="tracks">
             <h2 class="tracks-title">Tracks</h2>
             <div class="mxwidth tracks-mxwidth">
-                <div class="tracks pre-events">
-                    <div class="single-card tc1">
-                        <img src="./partials/images/accessibility.svg" alt="accessibility">
-                        <p>Accessibility</p>
-                    </div>
-                    <div class="single-card tc2">
-                        <img src="./partials/images/education.svg" alt="education">
-                        <p>Education</p>
-                    </div>
-                    <div class="single-card tc3">
-                        <img src="./partials/images/healthcare.svg" alt="healthcare">
-                        <p>Health Care</p>
-                    </div>
-                    <div class="single-card tc4">
-                        <img src="./partials/images/agriculture.svg" alt="Agriculture">
-                        <p>Agriculture</p>
-                    </div>
-                </div>
-                <p class="tracks-info">
-                    Partcipants are free to choose any tracks and use any technologies they are comfortable with to
-                    solve a secret problem statement from any of the tracks above.
-                </p>
+                <h1 class="soon tracks-soon">Coming Soon...</h1>
+
             </div>
         </div>
         <!-- tracks ends here -->
 
         <!-- Our Team -->
-        <div class="max-bg teambg">
+        <div class="max-bg teambg" id="teams">
             <div class="pre-events-title">Our Team</div>
             <div class="mxwidth team-mx-width">
                 <div class="teams-outer">
-                    <!-- <i class="fa-solid fa-angle-left arrow left-arr"></i>
-                    <i class="fa-solid fa-angle-right arrow right-arr"></i> -->
                     <div class="teams">
                         <div class="team-card">
-                            <img src="./partials/images/rijan.jpg" alt="team member">
-                            <p class="name">Rijan Neupane 1</p>
+                            <img src="./partials/images/banshaj.png" alt="team member">
+                            <p class="name">Banshaj Paudel</p>
+                            <p class="team-meta">Hackathon Lead</p>
                         </div>
                         <div class="team-card">
-                            <img src="./partials/images/rijan.jpg" alt="team member">
-                            <p class="name">Rijan Neupane 2</p>
+                            <img src="./partials/images/kripesh.png" alt="team member">
+                            <p class="name">Kripesh Sharma</p>
+                            <p class="team-meta">Design and Development</p>
                         </div>
                         <div class="team-card">
-                            <img src="./partials/images/rijan.jpg" alt="team member">
-                            <p class="name">Rijan Neupane 3</p>
+                            <img src="./partials/images/rijan.png" alt="team member">
+                            <p class="name">Rijan Neupane</p>
+                            <p class="team-meta">Design and Development</p>
                         </div>
                         <div class="team-card">
-                            <img src="./partials/images/rijan.jpg" alt="team member">
-                            <p class="name">Rijan Neupane 4</p>
+                            <img src="./partials/images/sujan.png" alt="team member">
+                            <p class="name">Sujan Reshmi Magar</p>
+                            <p class="team-meta">Design and Development</p>
                         </div>
                         <div class="team-card">
-                            <img src="./partials/images/rijan.jpg" alt="team member">
-                            <p class="name">Rijan Neupane 5</p>
+                            <img src="./partials/images/manish.png" alt="team member">
+                            <p class="name">Manish Pudasaini</p>
+                            <p class="team-meta">Design and Development</p>
                         </div>
                         <div class="team-card">
-                            <img src="./partials/images/rijan.jpg" alt="team member">
-                            <p class="name">Rijan Neupane last</p>
+                            <img src="./partials/images/saira.png" alt="team member">
+                            <p class="name">Saira Shrestha</p>
+                            <p class="team-meta">Social Media and Marketing</p>
+                        </div>
+                        <div class="team-card">
+                            <img src="./partials/images/roshan.png" alt="team member">
+                            <p class="name">Roshan Ghimire</p>
+                            <p class="team-meta">Social Media and Marketing</p>
                         </div>
                     </div>
                 </div>
@@ -196,7 +202,7 @@
         <!-- our team ends here -->
 
         <!-- FAQ -->
-        <div class="max-bg faqmax">
+        <div class="max-bg faqmax" id="faq">
             <div class="pre-events-title">FAQS</div>
             <div class="mx-width">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -205,14 +211,13 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
-                                Accordion Item #1
+                                What is a hackathon?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
-                                body.</div>
+                            <div class="accordion-body">A hackathon is an event where people come to learn, network and
+                                enjoy while developing a solution for a presented problem.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -220,14 +225,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
-                                Accordion Item #2
+                                What exactly is the goal of this hackathon?
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
-                                body. Let's imagine this being filled with some actual content.</div>
+                            <div class="accordion-body">IdeaX aims to bring together young people from all over Nepal to
+                                generate ideas and solutions for preserving and promoting indigenous languages using
+                                ICT.</div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -235,16 +240,107 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
-                                Accordion Item #3
+                                Why a hackathon on Indigenous Languages?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                                body. Nothing more exciting happening here in terms of content, but just filling up the
-                                space to make it look, at least at first glance, a bit more representative of how this
-                                would look in a real-world application.</div>
+                            <div class="accordion-body">Hackathon on Indigenous Languages promotes the preservation,
+                                learning, accessibility, and promotion of endangered indigenous languages through
+                                innovative technical solutions. </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                What do we have to Preserve, Promote, Revitalize Indigenous Languages ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Preserving, promoting, and revitalizing indigenous languages is
+                                crucial because these languages are integral to the cultural identity and heritage of
+                                indigenous communities. They contain valuable knowledge, traditions, and ways of life
+                                that have been passed down through generations. By protecting and promoting these
+                                languages, we can help ensure their survival and contribute to the cultural diversity
+                                and richness of our world. </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour2" aria-expanded="false"
+                                aria-controls="flush-collapseFour2">
+                                Do I need to have any prior experience to participate in the hackathon?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour2" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour2" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes. You need to have at least some experience of having fun and
+                                enjoying the circle. Experience for hackathon? Well, you'll get to earn that here with
+                                us!!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                Can I work on a project alone or do I need to be in a team?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">"Alone we can do so little, but together we can achieve
+                                greatness. While individual efforts may spark innovation, it is the power of
+                                collaboration that brings forth true transformation." </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix">
+                                Can I submit a project that I have already worked on before the hackathon?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">While you are not allowed to bring your past hackathon projects,
+                                you are more than welcome to bring the experience and learnings from your previous
+                                hackathons.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                aria-controls="flush-collapseSeven">
+                                Will there be any opportunities to network with other participants or mentors during the
+                                hackathon?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Hackathon is all about networking! If a hackathon doesn’t
+                                provide this to you, is it even considered a hackathon?</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                aria-controls="flush-collapseEight">
+                                How will my project be used after the hackathon?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Your project is just the beginning of a possible big change. An
+                                investor coming to the hackathon might love your idea, or even you can make this “The
+                                Idea”. It’s all up to you.</div>
                         </div>
                     </div>
                 </div>
@@ -260,10 +356,13 @@
                         Made with Love @ MBM IdeaX
                     </p>
                     <div class="social-links">
-                        <a href="#"><i class="fa-brands fa-facebook-f fb"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram ig"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter tw"></i></a>
-                        <a href="#"><i class="fa-brands fa-discord dc"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100091489651066&mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook-f fb" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/ideax_2023/" target="_blank"><i
+                                class="fa-brands fa-instagram ig"></i></a>
+                        <a href="https://twitter.com/ideax2023"><i class="fa-brands fa-twitter tw"
+                                target="_blank"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord dc" target="_blank"></i></a>
                     </div>
                 </div>
             </div>
@@ -291,6 +390,8 @@
     <!-- Custom js -->
     <script src="./partials/js/nav.js"></script>
     <script src="./partials/js/scrollTrigger.js"></script>
+    <script src="./partials/js/script.js"></script>
+    <script src="./partials/js/countDown.js"></script>
 </body>
 
 </html>
