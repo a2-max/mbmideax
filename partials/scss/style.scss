@@ -50,19 +50,20 @@ $pcolor: #0973BA;
             user-select: none;
             margin-bottom: 20px;
 
-            .row{
+            .row {
                 width: 80px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
 
-                .value{
+                .value {
                     color: $pcolor;
                     font-size: 20px;
                     text-align: left;
                 }
-                .label{
+
+                .label {
                     text-align: left;
                 }
             }
@@ -294,7 +295,7 @@ $pcolor: #0973BA;
 
 .teambg {
     flex-direction: column;
-    background-color: #fff;
+    // background-color: #fff;
     padding: 30px 0 0 0;
 }
 
@@ -395,7 +396,7 @@ $pcolor: #0973BA;
 }
 
 .footermax {
-    margin-top: 50px;
+    // margin-top: 50px;
     background-color: #302f2f;
 }
 
@@ -405,6 +406,7 @@ $pcolor: #0973BA;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
 
     p {
         color: #e6e6e6;
@@ -434,6 +436,143 @@ $pcolor: #0973BA;
 
             .dc {
                 background-color: #7289da;
+            }
+        }
+    }
+}
+
+// footer start 
+.above-footermax {
+    margin-top: 50px;
+    background: url("../images/footerbg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: $pcolor;
+    padding: 30px 0;
+
+    .above-footer {
+        display: flex;
+
+        .footercol {
+            width: 50%;
+
+            .footer-logo {
+                filter: drop-shadow(0px 0px 10px #0005);
+            }
+
+            .title {
+                color: #fff;
+                margin-top: 10px;
+                font-size: 40px;
+            }
+
+            .footer-meta {
+                color: #fff;
+                font-size: 20px;
+
+                .link {
+                    color: #e4fd02;
+                }
+            }
+
+            .social-links {
+                a {
+                    i {
+                        color: #fff;
+                        margin: 0 5px;
+                        // padding: 8px;
+                        border-radius: 3px;
+                        background-color: transparent;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        .col2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 78px;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .above-footermax {
+        .above-footer {
+            flex-direction: column;
+
+            .footercol {
+                width: 100%;
+            }
+
+            .col2 {
+                align-items: flex-start;
+            }
+        }
+    }
+}
+
+// Our Partner Section
+.partnerbg {
+    background-color: #fff;
+    padding: 30px 0;
+
+    .partner-mxwidth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .partner-title {
+            // padding-top: 30px;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: $pcolor;
+            text-align: center;
+        }
+        .unesco-logo{
+            width: 300px;
+            margin: 20px 0;
+        }
+        @media (max-width: 310px) {
+            .unesco-logo{
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Our Partner Section
+.sponsorbg {
+    background-color: #fff;
+    padding: 30px 0;
+
+    .sponsor-mxwidth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .sponsor-title {
+            // padding-top: 30px;
+            font-size: 40px;
+            text-transform: uppercase;
+            color: $pcolor;
+            text-align: center;
+        }
+        .sponsor-area{
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+            .sponsor-card{
+                .sponsor-logo{
+                    width: 100%;
+                    max-width: 200px;
+                }
             }
         }
     }

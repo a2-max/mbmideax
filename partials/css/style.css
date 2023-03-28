@@ -227,7 +227,6 @@
 }
 .teambg {
   flex-direction: column;
-  background-color: #fff;
   padding: 30px 0 0 0;
 }
 
@@ -313,7 +312,6 @@
   }
 }
 .footermax {
-  margin-top: 50px;
   background-color: #302f2f;
 }
 
@@ -323,6 +321,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .footer p {
   color: #e6e6e6;
@@ -345,4 +344,113 @@
 }
 .footer .social-links a .dc {
   background-color: #7289da;
+}
+
+.above-footermax {
+  margin-top: 50px;
+  background: url("../images/footerbg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #0973BA;
+  padding: 30px 0;
+}
+.above-footermax .above-footer {
+  display: flex;
+}
+.above-footermax .above-footer .footercol {
+  width: 50%;
+}
+.above-footermax .above-footer .footercol .footer-logo {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3333333333));
+}
+.above-footermax .above-footer .footercol .title {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 40px;
+}
+.above-footermax .above-footer .footercol .footer-meta {
+  color: #fff;
+  font-size: 20px;
+}
+.above-footermax .above-footer .footercol .footer-meta .link {
+  color: #e4fd02;
+}
+.above-footermax .above-footer .footercol .social-links a i {
+  color: #fff;
+  margin: 0 5px;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 30px;
+}
+.above-footermax .above-footer .col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 78px;
+}
+
+@media (max-width: 750px) {
+  .above-footermax .above-footer {
+    flex-direction: column;
+  }
+  .above-footermax .above-footer .footercol {
+    width: 100%;
+  }
+  .above-footermax .above-footer .col2 {
+    align-items: flex-start;
+  }
+}
+.partnerbg {
+  background-color: #fff;
+  padding: 30px 0;
+}
+.partnerbg .partner-mxwidth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partnerbg .partner-mxwidth .partner-title {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #0973BA;
+  text-align: center;
+}
+.partnerbg .partner-mxwidth .unesco-logo {
+  width: 300px;
+  margin: 20px 0;
+}
+@media (max-width: 310px) {
+  .partnerbg .partner-mxwidth .unesco-logo {
+    width: 100%;
+  }
+}
+
+.sponsorbg {
+  background-color: #fff;
+  padding: 30px 0;
+}
+.sponsorbg .sponsor-mxwidth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sponsorbg .sponsor-mxwidth .sponsor-title {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #0973BA;
+  text-align: center;
+}
+.sponsorbg .sponsor-mxwidth .sponsor-area {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.sponsorbg .sponsor-mxwidth .sponsor-area .sponsor-card .sponsor-logo {
+  width: 100%;
+  max-width: 200px;
 }

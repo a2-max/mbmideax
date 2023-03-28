@@ -1,4 +1,15 @@
 // Scroll Trigger Animation
+
+// Partner
+// let partner = gsap.timeline({
+//     scrollTrigger: {
+//         trigger: '.partnerbg',
+//         start: "top center",
+//     }
+// });
+// // partner.from(".partner-title", { y: 200, opacity: 0, duration: 0.6 });
+// // partner.from(".unesco-logo", { y: 200, opacity: 0, duration: 0.6 });
+
 // tracks
 let tracks = gsap.timeline({
     scrollTrigger: {
