@@ -35,11 +35,31 @@ $pcolor: #0973BA;
           color: #000;
           margin: 0 10px;
           font-size: 18px;
+          position: relative;
         }
 
         a:hover {
           color: $pcolor;
           transition: all .3s ease-in-out;
+        }
+
+        a:hover::before {
+          content: '';
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          height: 2px;
+          width: 100%;
+          background-color: $pcolor;
+          animation: underline .3s linear ;
+        }
+        @keyframes underline {
+          0%{
+            width: 0%;
+          }
+          100%{
+            width: 100%;
+          }
         }
       }
     }
@@ -102,8 +122,15 @@ $pcolor: #0973BA;
             margin: 0;
             padding: 0;
           }
+
+          a:hover {
+            color: #fff;
+          }
+          a:hover::before{
+            background-color: #fff;
+          }
         }
-        
+
       }
 
       .mobile {

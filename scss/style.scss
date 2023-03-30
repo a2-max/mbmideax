@@ -3,16 +3,9 @@ $pcolor: #0973BA;
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
 
 .soon {
-    color: #424242;
+    color: #b4b4b4;
     margin-top: 40px;
     text-align: center;
-}
-.pre-events-soon{
-    margin-top: 180px;
-    color: #fae901;
-    font-weight: 600;
-    z-index: 4;
-    transform: rotate(349deg);
 }
 .heromax {
     background-color: #fff;
@@ -211,15 +204,7 @@ $pcolor: #0973BA;
     background-color: #fff;
     flex-direction: column;
     padding: 50px 0;
-    background-color: $pcolor;
-    position: relative;
     min-height: 500px;
-}
-.focuslight{
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    width: 600px;
 }
 .pre-events-title,
 .tracks-title {
@@ -227,11 +212,6 @@ $pcolor: #0973BA;
     text-transform: uppercase;
     color: $pcolor;
     font-weight: 600;
-}
-.pre-events-title{
-    color: #fff;
-    margin-top: -40px;
-    z-index: 4;
 }
 .pre-events {
     display: flex;
@@ -279,6 +259,7 @@ $pcolor: #0973BA;
 .tracksbg {
     flex-direction: column;
     padding: 50px 0;
+    min-height: 500px;
 }
 
 .tracks {
@@ -474,10 +455,11 @@ $pcolor: #0973BA;
     background-repeat: no-repeat;
     // background-size: cover;
     background-color: $pcolor;
-    padding: 30px 0;
+    padding: 30px 0 0 0;
 
     .above-footer {
         display: flex;
+        gap: 30px;
 
         .footercol {
             width: 50%;
@@ -519,7 +501,7 @@ $pcolor: #0973BA;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            margin-top: 78px;
+            // margin-top: 78px;
         }
     }
 }
@@ -571,16 +553,16 @@ $pcolor: #0973BA;
 }
 
 // Our Partner Section
-.sponsorbg {
+.sponbg {
     background-color: #fff;
     padding: 30px 0;
 
-    .sponsor-mxwidth {
+    .spon-mxwidth {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .sponsor-title {
+        .ideax-spon-title {
             // padding-top: 30px;
             font-size: 40px;
             text-transform: uppercase;
@@ -588,15 +570,15 @@ $pcolor: #0973BA;
             text-align: center;
             font-weight: 600;
         }
-        .sponsor-area{
+        .ideax-spon-area{
             margin-top: 40px;
             display: flex;
             flex-wrap: wrap;
             gap: 50px;
             justify-content: center;
             align-items: center;
-            .sponsor-card{
-                .sponsor-logo{
+            .ideax-spon-card{
+                .ideax-spon-logo{
                     width: 100%;
                     max-width: 200px;
                 }

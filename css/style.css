@@ -1,16 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
 .soon {
-  color: #424242;
+  color: #b4b4b4;
   margin-top: 40px;
   text-align: center;
-}
-
-.pre-events-soon {
-  margin-top: 180px;
-  color: #fae901;
-  font-weight: 600;
-  z-index: 4;
-  transform: rotate(349deg);
 }
 
 .heromax {
@@ -167,16 +159,7 @@
   background-color: #fff;
   flex-direction: column;
   padding: 50px 0;
-  background-color: #0973BA;
-  position: relative;
   min-height: 500px;
-}
-
-.focuslight {
-  position: absolute;
-  top: 0;
-  z-index: 3;
-  width: 600px;
 }
 
 .pre-events-title,
@@ -185,12 +168,6 @@
   text-transform: uppercase;
   color: #0973BA;
   font-weight: 600;
-}
-
-.pre-events-title {
-  color: #fff;
-  margin-top: -40px;
-  z-index: 4;
 }
 
 .pre-events {
@@ -228,6 +205,7 @@
 .tracksbg {
   flex-direction: column;
   padding: 50px 0;
+  min-height: 500px;
 }
 
 .tracks .single-card img {
@@ -384,10 +362,11 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-color: #0973BA;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
 }
 .above-footermax .above-footer {
   display: flex;
+  gap: 30px;
 }
 .above-footermax .above-footer .footercol {
   width: 50%;
@@ -418,7 +397,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 78px;
 }
 
 @media (max-width: 750px) {
@@ -459,24 +437,24 @@
   }
 }
 
-.sponsorbg {
+.sponbg {
   background-color: #fff;
   padding: 30px 0;
 }
-.sponsorbg .sponsor-mxwidth {
+.sponbg .spon-mxwidth {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.sponsorbg .sponsor-mxwidth .sponsor-title {
+.sponbg .spon-mxwidth .ideax-spon-title {
   font-size: 40px;
   text-transform: uppercase;
   color: #0973BA;
   text-align: center;
   font-weight: 600;
 }
-.sponsorbg .sponsor-mxwidth .sponsor-area {
+.sponbg .spon-mxwidth .ideax-spon-area {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -484,7 +462,7 @@
   justify-content: center;
   align-items: center;
 }
-.sponsorbg .sponsor-mxwidth .sponsor-area .sponsor-card .sponsor-logo {
+.sponbg .spon-mxwidth .ideax-spon-area .ideax-spon-card .ideax-spon-logo {
   width: 100%;
   max-width: 200px;
 }
