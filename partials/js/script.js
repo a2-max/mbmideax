@@ -22,5 +22,5 @@ jQuery(document).ready(function ($) {
 $(document).ready(function(){
     setTimeout(function() {
         $('.site-preloader').fadeOut();
-    }, 1500);
+    }, 1900);
 });
