@@ -5,25 +5,51 @@ $pcolor: #0973BA;
 }
 .teambg{
     background-color: #fff;
-    padding: 100px 0 100px 0;
+    padding: 10px 0 100px 0;
 
     .mxwidth{
         .team-filter{
             margin-bottom: 80px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0 10px;
+            position: relative;
 
-            .button-value{
-                padding: 5px 20px;
-                background-color: #0001;
-                border-radius: 25px;
-                user-select: none;
+            i{
+                font-size: 30px;
+                position: relative;
                 cursor: pointer;
-                border: none;
             }
-            .button-value:hover{
-                background-color: #0002;
+            i::after{
+                content: 'Filter';
+                font-size: 16px;
+            }
+            .buttons{
+                display: flex;
+                flex-direction: column;
+                width: fit-content;
+                position: absolute;
+                z-index: 9;
+                gap: 10px;
+                background-color: #fff;
+                padding: 20px 15px;
+                border: 1px solid #0003;
+                border-radius: 5px;
+                top: 40px;
+                box-shadow: 3px 3px 10px #0003;
+
+                .button-value{
+                    padding: 5px 20px;
+                    background-color: #0001;
+                    border-radius: 25px;
+                    user-select: none;
+                    cursor: pointer;
+                    border: none;
+                }
+                .button-value:hover{
+                    background-color: $pcolor;
+                    color: #fff;
+                }
+            }
+            .buttons-hide{
+                display: none;
             }
         }
         .team-members{
@@ -63,6 +89,9 @@ $pcolor: #0973BA;
                     text-align: center;
                     text-shadow: 3px 3px 10px #0003;
                 }
+            }
+            .hide{
+                display: none;
             }
         }
     }

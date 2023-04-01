@@ -248,60 +248,73 @@
   padding: 30px 0 0 0;
 }
 
-.teams-outer {
-  position: relative;
-  max-width: 1050px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+.team {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-.teams-outer .teams {
+.team .left {
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 60px;
-  position: relative;
-  margin: 30px 0;
+  flex-direction: column;
+  justify-content: center;
 }
-.teams-outer .teams .team-card img {
-  width: 300px;
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 10px;
-  margin: 0 20px;
+.team .left .team-headline {
+  color: #6e6e6e;
+  font-size: 42px;
+  font-weight: 600;
 }
-.teams-outer .teams .team-card .name {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 20px;
+.team .left .team-headline span {
+  color: #0973BA;
 }
-.teams-outer .teams .team-card .team-meta {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  color: #444444;
-}
-.teams-outer .teams::-webkit-scrollbar {
-  width: 0px;
-}
-.teams-outer .arrow {
-  background-color: #000;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 10px;
+.team .left .explore-btn {
+  background-color: #0973BA;
+  width: -moz-fit-content;
+  width: fit-content;
   color: #fff;
-  border-radius: 50%;
-  font-size: 20px;
-  cursor: pointer;
-  position: absolute;
-  z-index: 999;
-  top: 150px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
-.teams-outer .right-arr {
-  right: 0;
+.team .left .explore-btn:hover {
+  background-color: #045991;
+  transition: all 0.3s ease-in-out;
+}
+.team .right .team-illustration {
+  width: 100%;
 }
 
+@media (max-width: 800px) {
+  .team .left .team-headline {
+    font-size: 32px;
+  }
+}
+@media (max-width: 700px) {
+  .team {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+  .team .left {
+    justify-content: center;
+    align-items: center;
+  }
+  .team .left .team-headline {
+    text-align: center;
+  }
+  .team .right .team-illustration {
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .team .left .team-headline {
+    font-size: 25px;
+  }
+  .team .right .team-illustration {
+    width: 100%;
+  }
+}
 .faqmax {
   padding-top: 30px;
   flex-direction: column;

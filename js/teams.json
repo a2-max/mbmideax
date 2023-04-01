@@ -2,36 +2,43 @@
     {
         "img": "../images/banshaj.png",
         "name": "Banshaj Paudel",
-        "depart": "Design and Development"
+        "depart": "Hackathon Lead",
+        "category": "hackathon-lead"
     },
     {
         "img": "../images/kripesh.png",
         "name": "Kripesh Sharma",
-        "depart": "Design and Development"
+        "depart": "Design and Development",
+        "category": "design-&-development"
     },
     {
         "img": "../images/rijan.png",
         "name": "Rijan Neupane",
-        "depart": "Design and Development"
+        "depart": "Design and Development",
+        "category": "design-&-development"
     },
     {
         "img": "../images/sujan.png",
         "name": "Sujan Reshmi Magar",
-        "depart": "Design and Development"
+        "depart": "Design and Development",
+        "category": "design-&-development"
     },
     {
         "img": "../images/manish.png",
         "name": "Manish Pudasaini",
-        "depart": "Design and Development"
+        "depart": "Design and Development",
+        "category": "design-&-development"
     },
     {
         "img": "../images/saira.png",
         "name": "Saira Shrestha",
-        "depart": "Social Media and Marketing"
+        "depart": "Social Media and Marketing",
+        "category": "social-media-&-marketing"
     },
     {
         "img": "../images/roshan.png",
         "name": "Roshan Ghimire",
-        "depart": "Social Media and Marketing"
+        "depart": "Social Media and Marketing",
+        "category": "social-media-&-marketing"
     }
 ]

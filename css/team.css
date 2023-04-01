@@ -4,15 +4,37 @@
 
 .teambg {
   background-color: #fff;
-  padding: 100px 0 100px 0;
+  padding: 10px 0 100px 0;
 }
 .teambg .mxwidth .team-filter {
   margin-bottom: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 10px;
+  position: relative;
 }
-.teambg .mxwidth .team-filter .button-value {
+.teambg .mxwidth .team-filter i {
+  font-size: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.teambg .mxwidth .team-filter i::after {
+  content: "Filter";
+  font-size: 16px;
+}
+.teambg .mxwidth .team-filter .buttons {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 9;
+  gap: 10px;
+  background-color: #fff;
+  padding: 20px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  top: 40px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.teambg .mxwidth .team-filter .buttons .button-value {
   padding: 5px 20px;
   background-color: rgba(0, 0, 0, 0.0666666667);
   border-radius: 25px;
@@ -22,8 +44,12 @@
   cursor: pointer;
   border: none;
 }
-.teambg .mxwidth .team-filter .button-value:hover {
-  background-color: rgba(0, 0, 0, 0.1333333333);
+.teambg .mxwidth .team-filter .buttons .button-value:hover {
+  background-color: #0973BA;
+  color: #fff;
+}
+.teambg .mxwidth .team-filter .buttons-hide {
+  display: none;
 }
 .teambg .mxwidth .team-members {
   display: flex;
@@ -61,6 +87,9 @@
   color: #e7e7e7;
   text-align: center;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.teambg .mxwidth .team-members .hide {
+  display: none;
 }
 
 @media (max-width: 611px) {
