@@ -1,0 +1,37 @@
+[
+    {
+        "img": "../images/banshaj.png",
+        "name": "Banshaj Paudel",
+        "depart": "Design and Development"
+    },
+    {
+        "img": "../images/kripesh.png",
+        "name": "Kripesh Sharma",
+        "depart": "Design and Development"
+    },
+    {
+        "img": "../images/rijan.png",
+        "name": "Rijan Neupane",
+        "depart": "Design and Development"
+    },
+    {
+        "img": "../images/sujan.png",
+        "name": "Sujan Reshmi Magar",
+        "depart": "Design and Development"
+    },
+    {
+        "img": "../images/manish.png",
+        "name": "Manish Pudasaini",
+        "depart": "Design and Development"
+    },
+    {
+        "img": "../images/saira.png",
+        "name": "Saira Shrestha",
+        "depart": "Social Media and Marketing"
+    },
+    {
+        "img": "../images/roshan.png",
+        "name": "Roshan Ghimire",
+        "depart": "Social Media and Marketing"
+    }
+]
