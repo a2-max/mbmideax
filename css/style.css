@@ -305,6 +305,8 @@
 .faqmax {
   padding-top: 30px;
   flex-direction: column;
+  background-color: #fff;
+  padding-bottom: 50px;
 }
 
 .accordion {
@@ -365,7 +367,7 @@
 }
 
 .above-footermax {
-  margin-top: 50px;
+  margin-top: 0;
   background: url("../images/footerbg.png");
   background-position: bottom;
   background-repeat: no-repeat;
