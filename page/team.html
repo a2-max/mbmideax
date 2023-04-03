@@ -150,9 +150,17 @@
 
     <!-- Custom js -->
     <script src="../js/nav.js"></script>
-    <!-- <script src="../js/scrollTrigger.js"></script> -->
     <script src="../js/script.js"></script>
     <script src="../js/teamApi.js"></script>
+    <script>
+        // hiding options of team filter
+        const options = document.querySelector('.buttons');
+        const filterIcon = document.querySelector('.fa-filter');
+
+        filterIcon.addEventListener('click', () => {
+            options.classList.toggle("buttons-hide");
+        })
+    </script>
 </body>
 
 </html>

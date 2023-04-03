@@ -1,15 +1,5 @@
 // Scroll Trigger Animation
 
-// Partner
-// let partner = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: '.partnerbg',
-//         start: "top center",
-//     }
-// });
-// // partner.from(".partner-title", { y: 200, opacity: 0, duration: 0.6 });
-// // partner.from(".unesco-logo", { y: 200, opacity: 0, duration: 0.6 });
-
 // tracks
 let tracks = gsap.timeline({
     scrollTrigger: {
@@ -19,18 +9,18 @@ let tracks = gsap.timeline({
 });
 tracks.from(".tracks-title", { y: 200, opacity: 0, duration: 0.6 });
 tracks.from(".tracks-soon", { y: 200, opacity: 0, duration: 0.6 });
-tracks.addLabel("start")
-    .from(".tc1", { y: 100, autoAlpha: 0 }, "-=0.6")
-    .addLabel("end");
-tracks.addLabel("start")
-    .from(".tc2", { y: 100, autoAlpha: 0 }, "-=0.7")
-    .addLabel("end");
-tracks.addLabel("start")
-    .from(".tc3", { y: 100, autoAlpha: 0 }, "-=0.8")
-    .addLabel("end");
-tracks.addLabel("start")
-    .from(".tc4", { y: 100, autoAlpha: 0 }, "-=0.9")
-    .addLabel("end");
+// tracks.addLabel("start")
+//     .from(".tc1", { y: 100, autoAlpha: 0 }, "-=0.6")
+//     .addLabel("end");
+// tracks.addLabel("start")
+//     .from(".tc2", { y: 100, autoAlpha: 0 }, "-=0.7")
+//     .addLabel("end");
+// tracks.addLabel("start")
+//     .from(".tc3", { y: 100, autoAlpha: 0 }, "-=0.8")
+//     .addLabel("end");
+// tracks.addLabel("start")
+//     .from(".tc4", { y: 100, autoAlpha: 0 }, "-=0.9")
+//     .addLabel("end");
 
 // Pre Events Section
 let preEvents = gsap.timeline({
@@ -41,18 +31,18 @@ let preEvents = gsap.timeline({
 });
 preEvents.from(".pre-events-title", { y: 200, opacity: 0, duration: 0.6 });
 preEvents.from(".pre-events-soon", { y: 200, opacity: 0, duration: 0.6 });
-preEvents.addLabel("start")
-    .from(".pe1", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.9")
-    .addLabel("end");
-preEvents.addLabel("start")
-    .from(".pe2", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.8")
-    .addLabel("end");
-preEvents.addLabel("start")
-    .from(".pe3", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.7")
-    .addLabel("end");
-preEvents.addLabel("start")
-    .from(".pe4", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.6")
-    .addLabel("end");
+// preEvents.addLabel("start")
+//     .from(".pe1", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.9")
+//     .addLabel("end");
+// preEvents.addLabel("start")
+//     .from(".pe2", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.8")
+//     .addLabel("end");
+// preEvents.addLabel("start")
+//     .from(".pe3", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.7")
+//     .addLabel("end");
+// preEvents.addLabel("start")
+//     .from(".pe4", { y: 100, opacity: 0, duration: 1, autoAlpha: 0 }, "-=0.6")
+//     .addLabel("end");
 
 
 // about section
