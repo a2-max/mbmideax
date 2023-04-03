@@ -587,14 +587,24 @@ $pcolor: #0973BA;
             font-weight: 600;
         }
 
-        .unesco-logo {
-            width: 300px;
-            margin: 20px 0;
+        .multiple-partners{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            .unesco-logo {
+                width: 300px;
+                margin: 20px 0;
+            }
         }
 
         @media (max-width: 310px) {
-            .unesco-logo {
-                width: 100%;
+            .multiple-partners{
+                .unesco-logo {
+                    width: 100%;
+                }
             }
         }
     }

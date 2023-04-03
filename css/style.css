@@ -451,12 +451,19 @@
   text-align: center;
   font-weight: 600;
 }
-.partnerbg .partner-mxwidth .unesco-logo {
+.partnerbg .partner-mxwidth .multiple-partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.partnerbg .partner-mxwidth .multiple-partners .unesco-logo {
   width: 300px;
   margin: 20px 0;
 }
 @media (max-width: 310px) {
-  .partnerbg .partner-mxwidth .unesco-logo {
+  .partnerbg .partner-mxwidth .multiple-partners .unesco-logo {
     width: 100%;
   }
 }
