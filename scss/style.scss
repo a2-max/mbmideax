@@ -185,6 +185,9 @@ $pcolor: #0973BA;
             letter-spacing: 1px;
             text-align: justify;
             margin-top: 20px;
+            a{
+                color: $pcolor;
+            }
         }
     }
 }
@@ -208,12 +211,15 @@ $pcolor: #0973BA;
     }
 }
 
+.idilmax{
+    background-color: #fff;
+}
 // ==========================================================
 // Pre Events Start
 // ==========================================================
 
 .pre-events-bg {
-    background-color: #fff;
+    // background-color: #fff;
     flex-direction: column;
     padding: 50px 0;
     min-height: 500px;
@@ -271,6 +277,7 @@ $pcolor: #0973BA;
 // =====================================================
 
 .tracksbg {
+    background-color: #fff;
     flex-direction: column;
     padding: 50px 0;
     min-height: 500px;
@@ -315,7 +322,7 @@ $pcolor: #0973BA;
 
 .teambg {
     flex-direction: column;
-    // background-color: #fff;
+    background-color: #fff;
     padding: 30px 0 0 0;
     min-height: 600px;
 }
@@ -416,7 +423,7 @@ $pcolor: #0973BA;
 .faqmax {
     padding-top: 30px;
     flex-direction: column;
-    background-color: #fff;
+    // background-color: #fff;
     padding-bottom: 50px;
 }
 
@@ -569,7 +576,6 @@ $pcolor: #0973BA;
 
 // Our Partner Section
 .partnerbg {
-    background-color: #fff;
     padding: 30px 0;
 
     .partner-mxwidth {
@@ -612,7 +618,7 @@ $pcolor: #0973BA;
 
 // Our Partner Section
 .sponbg {
-    background-color: #fff;
+    // background-color: #fff;
     padding: 30px 0;
 
     .spon-mxwidth {

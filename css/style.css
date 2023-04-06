@@ -148,6 +148,9 @@
   text-align: justify;
   margin-top: 20px;
 }
+.about .about-info .para a {
+  color: #0973BA;
+}
 
 @media (max-width: 800px) {
   .about {
@@ -163,8 +166,11 @@
     word-spacing: 3px;
   }
 }
-.pre-events-bg {
+.idilmax {
   background-color: #fff;
+}
+
+.pre-events-bg {
   flex-direction: column;
   padding: 50px 0;
   min-height: 500px;
@@ -211,6 +217,7 @@
   }
 }
 .tracksbg {
+  background-color: #fff;
   flex-direction: column;
   padding: 50px 0;
   min-height: 500px;
@@ -245,6 +252,7 @@
 }
 .teambg {
   flex-direction: column;
+  background-color: #fff;
   padding: 30px 0 0 0;
   min-height: 600px;
 }
@@ -319,7 +327,6 @@
 .faqmax {
   padding-top: 30px;
   flex-direction: column;
-  background-color: #fff;
   padding-bottom: 50px;
 }
 
@@ -435,7 +442,6 @@
   }
 }
 .partnerbg {
-  background-color: #fff;
   padding: 30px 0;
 }
 .partnerbg .partner-mxwidth {
@@ -469,7 +475,6 @@
 }
 
 .sponbg {
-  background-color: #fff;
   padding: 30px 0;
 }
 .sponbg .spon-mxwidth {
