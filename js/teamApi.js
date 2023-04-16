@@ -10,7 +10,7 @@ fetch(url)
             let teamCard = document.createElement("div");
             teamCard.classList.add('team-card', data[i].category);
             teamCard.innerHTML = `
-                <img src="${data[i].img}" alt="${data[i].name}" class="profile-img">
+                <img src="${data[i].img}" alt="${data[i].name}" class="profile-img ${data[i].class}">
                 <h2 class="team-name">${data[i].name}</h2>
                 <p class="team-depart">${data[i].depart}</p>
                 `;

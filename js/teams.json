@@ -1,44 +1,212 @@
 [
     {
-        "img": "../images/banshaj.png",
+        "img": "../team_images/hack_lead/banshaj.png",
         "name": "Banshaj Paudel",
         "depart": "Hackathon Lead",
-        "category": "hackathon-lead"
+        "category": "hackathon-lead",
+        "class": "img-style1"
     },
     {
-        "img": "../images/kripesh.png",
+        "img": "../team_images/design/kripesh.png",
         "name": "Kripesh Sharma",
         "depart": "Design and Development",
-        "category": "design-&-development"
+        "category": "design-&-development",
+        "class": "img-style1"
     },
     {
-        "img": "../images/rijan.png",
+        "img": "../team_images/design/rijan.png",
         "name": "Rijan Neupane",
         "depart": "Design and Development",
-        "category": "design-&-development"
+        "category": "design-&-development",
+        "class": "img-style1"
     },
     {
-        "img": "../images/sujan.png",
+        "img": "../team_images/design/sujan.png",
         "name": "Sujan Reshmi Magar",
         "depart": "Design and Development",
-        "category": "design-&-development"
+        "category": "design-&-development",
+        "class": "img-style1"
     },
     {
-        "img": "../images/manish.png",
+        "img": "../team_images/design/manish.png",
         "name": "Manish Pudasaini",
         "depart": "Design and Development",
-        "category": "design-&-development"
+        "category": "design-&-development",
+        "class": "img-style1"
     },
     {
-        "img": "../images/saira.png",
+        "img": "../team_images/social_media/saira.png",
         "name": "Saira Shrestha",
         "depart": "Social Media and Marketing",
-        "category": "social-media-&-marketing"
+        "category": "social-media-&-marketing",
+        "class": "img-style1"
     },
     {
-        "img": "../images/roshan.png",
+        "img": "../team_images/social_media/roshan.png",
         "name": "Roshan Ghimire",
         "depart": "Social Media and Marketing",
-        "category": "social-media-&-marketing"
+        "category": "social-media-&-marketing",
+        "class": "img-style1"
+    },
+    {
+        "img": "../team_images/documentation/Prabhat.png",
+        "name": "Prabhat Basnet",
+        "depart": "Documentation",
+        "category": "documentation",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/content/Aarati.png",
+        "name": "Aarti Dulal",
+        "depart": "Content Creation",
+        "category": "content-creation",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/content/Nischal.png",
+        "name": "Nischal Katwal",
+        "depart": "Content Creation",
+        "category": "content-creation",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/content/Santosh.png",
+        "name": "Santosh Adhikari",
+        "depart": "Content Creation",
+        "category": "content-creation",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/content/Sonika.png",
+        "name": "Sonika Adhikari",
+        "depart": "Content Creation",
+        "category": "content-creation",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/design/sujan.png",
+        "name": "Sujan Reshmi Magar",
+        "depart": "Content Creation",
+        "category": "content-creation",
+        "class": "img-style1"
+    },
+    {
+        "img": "../team_images/sponsor/Prerana Sapkota.png",
+        "name": "Prerana Sapkota",
+        "depart": "Sponsorship",
+        "category": "sponsorship",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/volunteer/Anushka Aryal.png",
+        "name": "Anushka Aryal",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/volunteer/Saugat Regmi.png",
+        "name": "Saugat Regmi",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/volunteer/Puja Aryal.png",
+        "name": "Puja Aryal",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/volunteer/Sameena Bhandari.png",
+        "name": "Sameena Bhandari",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/volunteer/Prajina Basnet.png",
+        "name": "Prajina Basnet",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/volunteer/Sanskriti Joshi.png",
+        "name": "Sanskriti Joshi",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/ol/Rupesh Nepal.png",
+        "name": "Rupesh Nepal",
+        "depart": "Operations & Logistics",
+        "category": "operations-and-logistics",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/ol/Ankita Subedi.png",
+        "name": "Ankita Subedi",
+        "depart": "Operations & Logistics",
+        "category": "operations-and-logistics",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/ol/Shristi Chapagain.png",
+        "name": "Shristi Chapagain",
+        "depart": "Operations & Logistics",
+        "category": "operations-and-logistics",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/ol/Swastik Karkee.png",
+        "name": "Swastik Karki",
+        "depart": "Operations & Logistics",
+        "category": "operations-and-logistics",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/ol/Vishal Shrestha.png",
+        "name": "Vishal Shrestha",
+        "depart": "Operations & Logistics",
+        "category": "operations-and-logistics",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/ol/Prabha Timilsina.png",
+        "name": "Prabha Timilsina",
+        "depart": "Operations & Logistics",
+        "category": "operations-and-logistics",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/finance/Rasmila.png",
+        "name": "Rashmila Sapkota",
+        "depart": "Finance",
+        "category": "finance",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/finance/Namrata.png",
+        "name": "Namrata Pyakurel",
+        "depart": "Finance",
+        "category": "finance",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/finance/Apeshya.png",
+        "name": "Apeshya Rai",
+        "depart": "Finance",
+        "category": "finance",
+        "class": "img-style2"
+    },
+    {
+        "img": "../team_images/finance/Pasang.png",
+        "name": "Pasang Butti Sherpa",
+        "depart": "Finance",
+        "category": "finance",
+        "class": "img-style2"
     }
 ]
