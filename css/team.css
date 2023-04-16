@@ -121,6 +121,9 @@
   .teambg .mxwidth .team-members .team-card .profile-img {
     width: 60%;
   }
+  .teambg .mxwidth .team-members .team-card .img-style2 {
+    width: 43%;
+  }
 }
 @media (max-width: 280px) {
   .teambg .mxwidth .team-members .team-card .profile-img {
