@@ -129,10 +129,16 @@
   .teambg .mxwidth .team-members .team-card .profile-img {
     width: 80%;
   }
+  .teambg .mxwidth .team-members .team-card .img-style2 {
+    width: 57%;
+  }
 }
 @media (max-width: 270px) {
   .teambg .mxwidth .team-members .team-card .profile-img {
     width: 100%;
+  }
+  .teambg .mxwidth .team-members .team-card .img-style2 {
+    width: 67%;
   }
   .teambg .mxwidth .team-members .team-card .team-name {
     margin-top: 100px;
