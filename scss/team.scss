@@ -6,15 +6,18 @@ $pcolor: #0973BA;
 .teambg{
     background-color: #fff;
     padding: 10px 0 100px 0;
+    position: relative;
 
     .mxwidth{
         .team-filter{
+            background-color: red;
             margin-bottom: 80px;
-            position: relative;
+            // position: relative;
 
             i{
                 font-size: 30px;
-                position: relative;
+                position: absolute;
+                top: 20px;
                 cursor: pointer;
             }
             i::after{

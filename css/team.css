@@ -5,14 +5,16 @@
 .teambg {
   background-color: #fff;
   padding: 10px 0 100px 0;
+  position: relative;
 }
 .teambg .mxwidth .team-filter {
+  background-color: red;
   margin-bottom: 80px;
-  position: relative;
 }
 .teambg .mxwidth .team-filter i {
   font-size: 30px;
-  position: relative;
+  position: absolute;
+  top: 20px;
   cursor: pointer;
 }
 .teambg .mxwidth .team-filter i::after {

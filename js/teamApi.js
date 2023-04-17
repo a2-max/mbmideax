@@ -23,6 +23,8 @@ fetch(url)
 function filterProduct(value) {
     //select all cards
     let elements = document.querySelectorAll(".team-card");
+    let buttons = document.querySelector('.buttons');
+    buttons.classList.add('buttons-hide');
     //loop through all cards
     elements.forEach((element) => {
         //display all cards on 'all' button click
