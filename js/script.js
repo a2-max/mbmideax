@@ -3,7 +3,3 @@ $(document).ready(function () {
         $('.site-preloader').fadeOut();
     }, 1900);
 });
-
-jQuery(function(){
-    jQuery("a.bla-all").YouTubePopUp();
-});
