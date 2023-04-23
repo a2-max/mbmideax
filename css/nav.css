@@ -12,6 +12,9 @@
   padding: 10px;
   position: relative;
 }
+.navmax nav a {
+  margin-left: 10px;
+}
 .navmax nav a .logo {
   width: 100px;
 }

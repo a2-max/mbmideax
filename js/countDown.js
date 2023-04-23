@@ -5,7 +5,7 @@ const min = document.querySelector('.min');
 const sec = document.querySelector('.sec');
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 9, 2023 10:00:00").getTime();
+var countDownDate = new Date("May 14, 2023 11:59:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {

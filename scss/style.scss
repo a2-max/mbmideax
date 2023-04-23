@@ -49,6 +49,7 @@ $pcolor: #0973BA;
             overflow: hidden;
             user-select: none;
             margin-bottom: 20px;
+            margin-top: -20px;
 
             .row {
                 width: 80px;
@@ -69,86 +70,87 @@ $pcolor: #0973BA;
             }
         }
 
-        // .button {
-        //     background-color: $pcolor;
-        //     color: #fff;
-        //     font-size: 18px;
-        //     padding: 10px 30px;
-        //     border-radius: 5px;
-        //     position: relative;
-        //     color: white;
-        //     cursor: pointer;
-        //     box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
-        //     animation: pulse 1.5s linear infinite;
-        // }
-        // @keyframes pulse {
-        //     0% {
-        //         transform: scale(.9);
-        //     }
-
-        //     70% {
-        //         transform: scale(1);
-        //         box-shadow: 0 0 0 30px rgba(#5a99d4, 0);
-        //     }
-
-        //     100% {
-        //         transform: scale(.9);
-        //         box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
-        //     }
-        // }
-
         .button {
-            background-color: #fff;
-            color: #333333;
-            // text-transform: uppercase;
-            font-weight: 600;
-            border: 1px solid #0002;
-            padding: 16px 24px;
-            position: relative;
-            border: 1px solid #0002;
-            border-radius: 8px;
+            background-color: $pcolor;
+            color: #fff;
             font-size: 18px;
-            box-shadow: 0 0 0 1px rgba(0, 0, 0, .01);
-
-            &::after {
-                position: absolute;
-                content: "";
-                top: -1px;
-                left: 0;
-                right: 0;
-                z-index: -1;
-                height: 100%;
-                width: 100%;
-                transform: scale(0.9) translateZ(0);
-                filter: blur(15px);
-                background: linear-gradient(to left,
-                        $pcolor,
-                        $pcolor,
-                        $pcolor,
-                        #9e16c3,
-                        #6501de,
-                        #9e16c3,
-                        #c42da8,
-                        $pcolor,
-                        $pcolor );
-                background-size: 200% 200%;
-                animation: animateGlow 1.25s linear infinite;
-            }
+            padding: 15px 30px;
+            border-radius: 5px;
+            position: relative;
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+            animation: pulse 1.5s linear infinite;
         }
 
-        @keyframes animateGlow {
+        @keyframes pulse {
             0% {
-                background-position: 0% 50%;
+                transform: scale(.9);
+            }
+
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 30px rgba(#5a99d4, 0);
             }
 
             100% {
-                background-position: 200% 50%;
+                transform: scale(.9);
+                box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
             }
         }
+
+        // .button {
+        //     background-color: #fff;
+        //     color: #333333;
+        //     // text-transform: uppercase;
+        //     font-weight: 600;
+        //     border: 1px solid #0002;
+        //     padding: 16px 24px;
+        //     position: relative;
+        //     border: 1px solid #0002;
+        //     border-radius: 8px;
+        //     font-size: 18px;
+        //     box-shadow: 0 0 0 1px rgba(0, 0, 0, .01);
+
+        //     &::after {
+        //         position: absolute;
+        //         content: "";
+        //         top: -1px;
+        //         left: 0;
+        //         right: 0;
+        //         z-index: -1;
+        //         height: 100%;
+        //         width: 100%;
+        //         transform: scale(0.9) translateZ(0);
+        //         filter: blur(15px);
+        //         background: linear-gradient(to left,
+        //                 $pcolor,
+        //                 $pcolor,
+        //                 $pcolor,
+        //                 #9e16c3,
+        //                 #6501de,
+        //                 #9e16c3,
+        //                 #c42da8,
+        //                 $pcolor,
+        //                 $pcolor );
+        //         background-size: 200% 200%;
+        //         animation: animateGlow 1.25s linear infinite;
+        //     }
+        // }
+
+        // @keyframes animateGlow {
+        //     0% {
+        //         background-position: 0% 50%;
+        //     }
+
+        //     100% {
+        //         background-position: 200% 50%;
+        //     }
+        // }
         .button:hover {
-            // background-color: #04599141;
+            background-color: #045991;
             transition: all .3s ease-in-out;
-            // animation: none;
+            animation: none;
         }
     }
 
@@ -289,14 +291,15 @@ $pcolor: #0973BA;
 // ==========================================================
 
 .pre-events-bg {
-    // background-color: #fff;
+    background-color: #fff;
     flex-direction: column;
     padding: 50px 0;
     min-height: 500px;
 }
 
 .pre-events-title,
-.tracks-title {
+.tracks-title,
+.section-title {
     font-size: 40px;
     text-transform: uppercase;
     color: $pcolor;
@@ -347,7 +350,7 @@ $pcolor: #0973BA;
 // =====================================================
 
 .tracksbg {
-    background-color: #fff;
+    // background-color: #fff;
     flex-direction: column;
     padding: 50px 0;
     min-height: 500px;
@@ -392,7 +395,7 @@ $pcolor: #0973BA;
 
 .teambg {
     flex-direction: column;
-    background-color: #fff;
+    // background-color: #fff;
     padding: 30px 0 0 0;
     min-height: 600px;
 }
@@ -490,10 +493,86 @@ $pcolor: #0973BA;
     }
 }
 
+// ==============================================================
+// Resources
+// ==============================================================
+.resourcesbg {
+    flex-direction: column;
+    padding: 30px 0;
+    min-height: 500px;
+
+    .resources-mx-width {
+        .resources-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            a {
+                position: relative;
+                gap: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .video-title{
+                    font-size: 18px;
+                    color: #000;
+                    margin-top: -20px;
+                }
+
+                .video-thumbnail {
+                    width: 300px;
+                    filter: brightness(75%);
+                    border-radius: 5px;
+                }
+            }
+            a:hover {
+                filter: brightness(45%);
+                transition: all .3s ease-in-out;
+            }
+
+            a::after {
+                content: '▷';
+                position: absolute;
+                top: 35%;
+                left: 45%;
+                z-index: 9;
+                color: #fff;
+                font-size: 20px;
+                background-color: $pcolor;
+                // border: 1px solid #919191;
+                box-shadow: 3px 3px 10px #fff9;
+                border-radius: 50%;
+                padding: 3px 10px;
+                animation: ripple 1.5s linear infinite;
+            }
+
+            @keyframes ripple {
+                0% {
+                    transform: scale(.9);
+                }
+
+                70% {
+                    transform: scale(1);
+                    box-shadow: 0 0 0 30px rgba(#5a99d4, 0);
+                }
+
+                100% {
+                    transform: scale(.9);
+                    box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
+                }
+            }
+        }
+    }
+}
+
 .faqmax {
     padding-top: 30px;
     flex-direction: column;
-    // background-color: #fff;
+    background-color: #fff;
     padding-bottom: 50px;
 }
 
@@ -647,6 +726,7 @@ $pcolor: #0973BA;
 // Our Partner Section
 .partnerbg {
     padding: 30px 0;
+    background-color: #fff;
 
     .partner-mxwidth {
         display: flex;
@@ -688,7 +768,7 @@ $pcolor: #0973BA;
 
 // Our Partner Section
 .sponbg {
-    // background-color: #fff;
+    background-color: #fff;
     padding: 30px 0;
 
     .spon-mxwidth {
