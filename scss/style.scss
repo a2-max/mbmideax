@@ -358,9 +358,11 @@ $pcolor: #0973BA;
 
 .tracks {
     .single-card {
-        img {
-            width: 150px;
-            height: 150px;
+        i {
+            // width: 150px;
+            // height: 150px;
+            font-size: 60px;
+            color: #ececec;
             background-color: $pcolor;
             padding: 40px;
             border-radius: 10px;

@@ -244,9 +244,9 @@
   min-height: 500px;
 }
 
-.tracks .single-card img {
-  width: 150px;
-  height: 150px;
+.tracks .single-card i {
+  font-size: 60px;
+  color: #ececec;
   background-color: #0973BA;
   padding: 40px;
   border-radius: 10px;

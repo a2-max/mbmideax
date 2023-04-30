@@ -9,18 +9,18 @@ let tracks = gsap.timeline({
 });
 tracks.from(".tracks-title", { y: 200, opacity: 0, duration: 0.6 });
 tracks.from(".tracks-soon", { y: 200, opacity: 0, duration: 0.6 });
-// tracks.addLabel("start")
-//     .from(".tc1", { y: 100, autoAlpha: 0 }, "-=0.6")
-//     .addLabel("end");
-// tracks.addLabel("start")
-//     .from(".tc2", { y: 100, autoAlpha: 0 }, "-=0.7")
-//     .addLabel("end");
-// tracks.addLabel("start")
-//     .from(".tc3", { y: 100, autoAlpha: 0 }, "-=0.8")
-//     .addLabel("end");
-// tracks.addLabel("start")
-//     .from(".tc4", { y: 100, autoAlpha: 0 }, "-=0.9")
-//     .addLabel("end");
+tracks.addLabel("start")
+    .from(".tc1", { y: 100, autoAlpha: 0 }, "-=0.6")
+    .addLabel("end");
+tracks.addLabel("start")
+    .from(".tc2", { y: 100, autoAlpha: 0 }, "-=0.7")
+    .addLabel("end");
+tracks.addLabel("start")
+    .from(".tc3", { y: 100, autoAlpha: 0 }, "-=0.8")
+    .addLabel("end");
+tracks.addLabel("start")
+    .from(".tc4", { y: 100, autoAlpha: 0 }, "-=0.9")
+    .addLabel("end");
 
 // Pre Events Section
 let preEvents = gsap.timeline({
