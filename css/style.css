@@ -244,12 +244,20 @@
   min-height: 500px;
 }
 
+.tracks button {
+  border: none;
+  outline: none;
+}
 .tracks .single-card i {
   font-size: 60px;
   color: #ececec;
   background-color: #0973BA;
   padding: 40px;
   border-radius: 10px;
+}
+.tracks .single-card i:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .tracks-mxwidth {
@@ -762,4 +770,13 @@
     height: 100px;
     width: 100px;
   }
+}
+.modal-close-btn {
+  background-color: #0973BA;
+  color: #fff;
+}
+
+.modal-close-btn:hover {
+  background-color: #045991;
+  color: #fff;
 }

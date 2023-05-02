@@ -357,6 +357,10 @@ $pcolor: #0973BA;
 }
 
 .tracks {
+    button{
+        border: none;
+        outline: none;
+    }
     .single-card {
         i {
             // width: 150px;
@@ -367,6 +371,10 @@ $pcolor: #0973BA;
             padding: 40px;
             border-radius: 10px;
         }
+    }
+    .single-card i:hover{
+        transform: scale(1.1);
+        transition: all .3s ease-in-out;
     }
 }
 
@@ -1025,4 +1033,15 @@ $pcolor: #0973BA;
             }
         }
     }
+}
+
+
+// Modal Styling
+.modal-close-btn{
+    background-color: $pcolor;
+    color: #fff;
+}
+.modal-close-btn:hover{
+    background-color: #045991;
+    color: #fff;
 }

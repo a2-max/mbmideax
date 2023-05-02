@@ -95,6 +95,15 @@ $pcolor: #0973BA;
                     text-align: center;
                     text-shadow: 3px 3px 10px #0003;
                 }
+                .team-social-link{
+                    color: #fff;
+                    background-color: $pcolor;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                }
+                .team-social-link:hover{
+                    background-color: #256BAF;
+                }
             }
             .hide{
                 display: none;
