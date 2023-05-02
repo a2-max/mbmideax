@@ -314,6 +314,21 @@ $pcolor: #0973BA;
     justify-content: center;
     gap: 100px;
 
+    .workshop-card{
+        box-shadow: 3px 3px 10px #0003;
+        width: 400px;
+
+        .card-title{
+            color: $pcolor;
+            font-weight: 600;
+        }
+    }
+    .workshop-register-btn{
+        background-color: $pcolor;
+    }
+    .workshop-register-btn:hover{
+        background-color: #045991;
+    }
     .single-card {
         img {
             width: 150px;
@@ -334,7 +349,7 @@ $pcolor: #0973BA;
 @media (max-width: 450px) {
     .pre-events {
         gap: 10px;
-        justify-content: space-between;
+        justify-content: center;
 
         .single-card {
             img {
@@ -360,6 +375,7 @@ $pcolor: #0973BA;
     button{
         border: none;
         outline: none;
+        background-color: transparent;        
     }
     .single-card {
         i {

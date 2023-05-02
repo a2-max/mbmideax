@@ -94,13 +94,11 @@
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 .teambg .mxwidth .team-members .team-card .team-social-link {
-  color: #fff;
-  background-color: #0973BA;
-  padding: 5px 10px;
-  border-radius: 5px;
+  color: #ffffff;
+  font-size: 25px;
 }
 .teambg .mxwidth .team-members .team-card .team-social-link:hover {
-  background-color: #256BAF;
+  color: #ececec;
 }
 .teambg .mxwidth .team-members .hide {
   display: none;

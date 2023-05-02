@@ -14,6 +14,7 @@ fetch(url)
                 <img src="${data[i].img}" alt="${data[i].name}" class="profile-img ${data[i].class}">
                 <h2 class="team-name">${data[i].name}</h2>
                 <p class="team-depart">${data[i].depart}</p>
+                <a href="${data[i].social}" class="team-social-link"><i class="fa-brands fa-${data[i].socialType}"></i></a>
                 `;
             teamArea.appendChild(teamCard);
         }

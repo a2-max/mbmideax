@@ -5,8 +5,8 @@
         "depart": "Hackathon Lead",
         "category": "hackathon-lead",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "linkedin-in"
+        "social": "https://linkedin.com/in/banshaj",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/design/kripesh.png",
@@ -14,8 +14,8 @@
         "depart": "Design and Development",
         "category": "design-&-development",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/design/rijan.png",
@@ -23,8 +23,8 @@
         "depart": "Design and Development",
         "category": "design-&-development",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://np.linkedin.com/in/rijan-neupane-aa47461b0",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/design/sujan.png",
@@ -32,8 +32,8 @@
         "depart": "Design and Development",
         "category": "design-&-development",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/sujan-reshmi-7511101b5",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/design/manish.png",
@@ -41,8 +41,8 @@
         "depart": "Design and Development",
         "category": "design-&-development",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/manish-pudasaini-361a841a0",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/social_media/saira.png",
@@ -50,8 +50,8 @@
         "depart": "Social Media and Marketing",
         "category": "social-media-&-marketing",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/social_media/roshan.png",
@@ -59,8 +59,8 @@
         "depart": "Social Media and Marketing",
         "category": "social-media-&-marketing",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/documentation/Prabhat.png",
@@ -68,8 +68,8 @@
         "depart": "Documentation",
         "category": "documentation",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/prabhat-basnet-p10",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/content/Aarati.png",
@@ -77,8 +77,8 @@
         "depart": "Content Creation",
         "category": "content-creation",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/aarati-dulal-81727b261",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/content/Nischal.png",
@@ -86,8 +86,8 @@
         "depart": "Content Creation",
         "category": "content-creation",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/nischal-katwal-01b56825a/",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/content/Santosh.png",
@@ -95,8 +95,8 @@
         "depart": "Content Creation",
         "category": "content-creation",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/content/Sonika.png",
@@ -104,8 +104,8 @@
         "depart": "Content Creation",
         "category": "content-creation",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/design/sujan.png",
@@ -113,8 +113,8 @@
         "depart": "Content Creation",
         "category": "content-creation",
         "class": "img-style1",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/sponsor/Prerana Sapkota.png",
@@ -122,8 +122,8 @@
         "depart": "Sponsorship",
         "category": "sponsorship",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/prerana-sapkota-03b786205/",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/volunteer/Anushka Aryal.png",
@@ -131,8 +131,8 @@
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/anushka-aryal-27916722a",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/volunteer/Saugat Regmi.png",
@@ -140,8 +140,8 @@
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/volunteer/Puja Aryal.png",
@@ -149,8 +149,8 @@
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/puzza-aryal-355371256",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/volunteer/Sameena Bhandari.png",
@@ -158,8 +158,8 @@
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/sanam-bhandari-928a72238/",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/volunteer/Prajina Basnet.png",
@@ -167,8 +167,8 @@
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/volunteer/Sanskriti Joshi.png",
@@ -176,8 +176,8 @@
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/ol/Rupesh Nepal.png",
@@ -185,8 +185,8 @@
         "depart": "Operations & Logistics",
         "category": "operations-and-logistics",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/ol/Ankita Subedi.png",
@@ -194,8 +194,8 @@
         "depart": "Operations & Logistics",
         "category": "operations-and-logistics",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/ankita-subedi-18a162232/",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/ol/Shristi Chapagain.png",
@@ -203,8 +203,8 @@
         "depart": "Operations & Logistics",
         "category": "operations-and-logistics",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/shristi-chapagain-77a660232/",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/ol/Swastik Karkee.png",
@@ -212,8 +212,8 @@
         "depart": "Operations & Logistics",
         "category": "operations-and-logistics",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/swastik-karki-888464230/",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/ol/Vishal Shrestha.png",
@@ -221,8 +221,8 @@
         "depart": "Operations & Logistics",
         "category": "operations-and-logistics",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "http://linkedin.com/in/vishal-shrestha-b8938a264",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/ol/Prabha Timilsina.png",
@@ -230,8 +230,8 @@
         "depart": "Operations & Logistics",
         "category": "operations-and-logistics",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "",
+        "socialType": ""
     },
     {
         "img": "../team_images/finance/Rasmila.png",
@@ -239,8 +239,8 @@
         "depart": "Finance",
         "category": "finance",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/rashmila-sapkota-a06817274",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/finance/Namrata.png",
@@ -248,8 +248,8 @@
         "depart": "Finance",
         "category": "finance",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/namrata-pyakurel-697951274",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/finance/Apeshya.png",
@@ -257,8 +257,8 @@
         "depart": "Finance",
         "category": "finance",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/apeshya-rai-a81957274",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/finance/Pasang.png",
@@ -266,7 +266,7 @@
         "depart": "Finance",
         "category": "finance",
         "class": "img-style2",
-        "social": "https://www.facebook.com/whoisrijan",
-        "socialType": "facebook-f"
+        "social": "https://www.linkedin.com/in/pasang-sherpa-830951274",
+        "socialType": "linkedin"
     }
 ]

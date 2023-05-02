@@ -214,6 +214,20 @@
   justify-content: center;
   gap: 100px;
 }
+.pre-events .workshop-card {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+.pre-events .workshop-card .card-title {
+  color: #0973BA;
+  font-weight: 600;
+}
+.pre-events .workshop-register-btn {
+  background-color: #0973BA;
+}
+.pre-events .workshop-register-btn:hover {
+  background-color: #045991;
+}
 .pre-events .single-card img {
   width: 150px;
   height: 150px;
@@ -231,7 +245,7 @@
 @media (max-width: 450px) {
   .pre-events {
     gap: 10px;
-    justify-content: space-between;
+    justify-content: center;
   }
   .pre-events .single-card img {
     height: 100px;
@@ -247,6 +261,7 @@
 .tracks button {
   border: none;
   outline: none;
+  background-color: transparent;
 }
 .tracks .single-card i {
   font-size: 60px;
