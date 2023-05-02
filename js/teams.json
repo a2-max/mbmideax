@@ -59,8 +59,8 @@
         "depart": "Social Media and Marketing",
         "category": "social-media-&-marketing",
         "class": "img-style1",
-        "social": "",
-        "socialType": ""
+        "social": "https://www.linkedin.com/in/roshan-ghimire-a248a4274",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/documentation/Prabhat.png",
@@ -140,8 +140,8 @@
         "depart": "General Volunteer",
         "category": "general-volunteer",
         "class": "img-style2",
-        "social": "",
-        "socialType": ""
+        "social": "https://www.linkedin.com/in/saugat-regmi101",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/volunteer/Puja Aryal.png",
@@ -185,8 +185,8 @@
         "depart": "Operations & Logistics",
         "category": "operations-and-logistics",
         "class": "img-style2",
-        "social": "",
-        "socialType": ""
+        "social": "https://www.linkedin.com/in/rupesh-nepal-62693920b/",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/ol/Ankita Subedi.png",
