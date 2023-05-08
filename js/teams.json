@@ -236,8 +236,8 @@
     {
         "img": "../team_images/finance/Rasmila.png",
         "name": "Rashmila Sapkota",
-        "depart": "Finance",
-        "category": "finance",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
         "class": "img-style2",
         "social": "https://www.linkedin.com/in/rashmila-sapkota-a06817274",
         "socialType": "linkedin"
@@ -263,8 +263,8 @@
     {
         "img": "../team_images/finance/Pasang.png",
         "name": "Pasang Butti Sherpa",
-        "depart": "Finance",
-        "category": "finance",
+        "depart": "General Volunteer",
+        "category": "general-volunteer",
         "class": "img-style2",
         "social": "https://www.linkedin.com/in/pasang-sherpa-830951274",
         "socialType": "linkedin"

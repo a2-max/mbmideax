@@ -88,3 +88,4 @@ nav.from(".nl3", { y: 30, opacity: 0, duration: 0.6 }, "-=1");
 nav.from(".nl4", { y: 30, opacity: 0, duration: 0.4 }, "-=1");
 nav.from(".nl5", { y: 30, opacity: 0, duration: 0.2 }, "-=1");
 nav.from(".nl6", { y: 30, opacity: 0, duration: 0.1 }, "-=1");
+nav.from(".nl7", { y: 30, opacity: 0, duration: 0.1 }, "-=1");

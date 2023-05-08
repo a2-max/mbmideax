@@ -39,10 +39,9 @@
     <link rel="stylesheet" href="../css/preset.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/team.css">
+    <link rel="stylesheet" href="../css/codeOfConduct.css">
 
-
-    <title>Teams | MBM IdeaX 2023 | Preserve Promote Revitalize</title>
+    <title>Code of Conduct | MBM IdeaX 2023 | Preserve Promote Revitalize</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1LV0DNN9Z"></script>
     <script>
@@ -71,9 +70,9 @@
                     <li class="nl2"><a href="/#pre-events">Pre Events</a></li>
                     <li class="nl3"><a href="/#tracks">Tracks</a></li>
                     <li class="nl4"><a href="/#ideax-spon">Sponsors</a></li>
-                    <li class="nl5"><a href="#">Teams</a></li>
+                    <li class="nl5"><a href="./team.html">Teams</a></li>
                     <li class="nl6"><a href="/#faq">FAQ</a></li>
-                    <li class="nl7"><a href="./code-of-conduct.html">Code of Conduct</a></li>
+                    <li class="nl7"><a href="#">Code of Conduct</a></li>
                 </ul>
                 <div class="hamburger">
                     <div class="line line1"></div>
@@ -86,30 +85,57 @@
 
         <!-- Main Team Section -->
         <div class="max-bg teambg">
+            <h1 class="heading">Code of Conduct</h1>
             <div class="mxwidth">
-                <div class="team-filter">
-                    <i class="fa-solid fa-filter"></i>
-                    <div class="buttons buttons-hide">
-                        <button class="button-value" onclick="filterProduct('all')">All</button>
-                        <button class="button-value" onclick="filterProduct('hackathon-lead')">Hackathon Lead</button>
-                        <button class="button-value" onclick="filterProduct('design-&-development')">Design &
-                            Development</button>
-                        <button class="button-value" onclick="filterProduct('social-media-&-marketing')">Social Media &
-                            Marketing</button>
-                        <button class="button-value" onclick="filterProduct('documentation')">Documentation</button>
-                        <button class="button-value" onclick="filterProduct('content-creation')">Content
-                            Creation</button>
-                        <button class="button-value" onclick="filterProduct('sponsorship')">Sponsorship</button>
-                        <button class="button-value" onclick="filterProduct('general-volunteer')">General
-                            Volunteer</button>
-                        <button class="button-value" onclick="filterProduct('operations-and-logistics')">Operations &
-                            Logistics</button>
-                        <button class="button-value" onclick="filterProduct('finance')">Finance</button>
-                    </div>
-                </div>
-                <div class="team-members">
+                <p class="coc-paragraph">
+                    As an organizer of IdeaX 2023, it's essential to establish a code of conduct to
+                    ensure a safe and inclusive environment for all participants. Below are the guidelines that all
+                    attendees must follow during the hackathon event:
+                </p>
+                <h1 class="coc-title">Respectful Communication:</h1>
+                <p class="coc-paragraph">
+                    All participants must communicate respectfully and professionally with each other. This includes
+                    avoiding offensive language, name-calling, or discriminatory remarks based on race, gender,
+                    religion, ethnicity, or any other personal characteristics.
+                </p>
 
-                </div>
+
+                <h1 class="coc-title">Inclusive Behavior:</h1>
+                <p class="coc-paragraph">
+                    All participants should behave in an inclusive and welcoming manner. They should respect the
+                    opinions and beliefs of others, even if they differ from their own. Everyone should have an equal
+                    opportunity to participate and contribute to the event.
+                </p>
+
+                <h1 class="coc-title">Collaboration:</h1>
+                <p class="coc-paragraph">
+                    The hackathon is a collaborative event, and participants should work together to develop innovative
+                    solutions. Participants should respect their team members' ideas and work together to achieve their
+                    common goal.
+                </p>
+
+                <h1 class="coc-title">No Harassment:</h1>
+                <p class="coc-paragraph">
+                    Harassment of any kind, including physical, verbal, or sexual harassment, will not be tolerated at
+                    the event. All participants should feel safe and comfortable throughout the hackathon.
+                </p>
+
+                <h1 class="coc-title">Professional Conduct:</h1>
+                <p class="coc-paragraph">
+                    All participants should conduct themselves in a professional manner at all times. This includes
+                    refraining from engaging in any behavior that could damage the event's reputation or undermine the
+                    integrity of the hackathon.
+                </p>
+
+                <h1 class="coc-title">Follow the Rules:</h1>
+                <p class="coc-paragraph">
+                    All participants should follow the rules and guidelines set forth by the IdeaX team. Failure to
+                    comply with the rules may result in disqualification or removal from the event.
+                    <br><br>
+                    By adhering to these guidelines, we can ensure that IdeaX 2023 is an inclusive and safe event for
+                    all participants.
+
+                </p>
             </div>
         </div>
         <!-- main team section ends here -->
@@ -168,23 +194,8 @@
         integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Gsap  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-
     <!-- Custom js -->
     <script src="../js/nav.js"></script>
-    <script src="../js/script.js"></script>
-    <script src="../js/teamApi.js"></script>
-    <script>
-        // hiding options of team filter
-        const options = document.querySelector('.buttons');
-        const filterIcon = document.querySelector('.fa-filter');
-
-        filterIcon.addEventListener('click', () => {
-            options.classList.toggle("buttons-hide");
-        })
-    </script>
 </body>
 
 </html>

@@ -83,7 +83,7 @@
   width: 30px;
   transform: rotate(-45deg) translatey(-7px) translateX(0px);
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .navmax nav .links {
     position: fixed;
     left: -100%;
