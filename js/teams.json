@@ -9,6 +9,69 @@
         "socialType": "linkedin"
     },
     {
+        "img": "../team_images/advisoryBoard/chief.png",
+        "name": "Ramesh Chandra Paudel",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/advisoryBoard/kamalneupane.png",
+        "name": "Kamal Neupane",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/advisoryBoard/taraGautam.png",
+        "name": "Dr. Tara Gautam",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/advisoryBoard/phulBabuJha.png",
+        "name": "Phul Babu Jha",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/advisoryBoard/akMishra.png",
+        "name": "Dr. Anjay Kumar Mishra",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/advisoryBoard/prajwalShrestha.png",
+        "name": "Prajwal Man Shrestha",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
+        "img": "../team_images/advisoryBoard/nabarajJoshi.png",
+        "name": "Nawaraj Joshi",
+        "depart": "Advisory Board",
+        "category": "advisory-board",
+        "class": "img-style2",
+        "social": "",
+        "socialType": ""
+    },
+    {
         "img": "../team_images/design/kripesh.png",
         "name": "Kripesh Sharma",
         "depart": "Design and Development",
