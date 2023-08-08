@@ -1,14 +1,5 @@
 [
     {
-        "img": "../team_images/hack_lead/banshaj.png",
-        "name": "Banshaj Paudel",
-        "depart": "Hackathon Lead",
-        "category": "hackathon-lead",
-        "class": "img-style1",
-        "social": "https://linkedin.com/in/banshaj",
-        "socialType": "linkedin"
-    },
-    {
         "img": "../team_images/advisoryBoard/chief.png",
         "name": "Ramesh Chandra Paudel",
         "depart": "Advisory Board",
@@ -70,6 +61,15 @@
         "class": "img-style2",
         "social": "",
         "socialType": ""
+    },
+    {
+        "img": "../team_images/hack_lead/banshaj.png",
+        "name": "Banshaj Paudel",
+        "depart": "Hackathon Lead",
+        "category": "hackathon-lead",
+        "class": "img-style1",
+        "social": "https://linkedin.com/in/banshaj",
+        "socialType": "linkedin"
     },
     {
         "img": "../team_images/design/kripesh.png",
