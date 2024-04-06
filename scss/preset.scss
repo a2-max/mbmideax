@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F5F4F6;
+    position: relative;
+//     background: rgb(0,105,179);
+// background: linear-gradient(135deg, rgba(0,105,179,1) 0%, rgba(81,171,206,1) 91%, rgba(253,251,245,1) 91%, rgba(252,252,252,1) 100%);
+}
+// .flyingcat{
+//     position: fixed;
+//     top: 100px;
+// }
+.mxwidth{
+    max-width: 1300px;
+    padding: 20px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.site-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .max-bg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// Preloader
+.site-preloader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FCFCFE;
+    overflow: hidden;
+    z-index: 9999999999999999999999999999999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 300px;
+    }
+}
